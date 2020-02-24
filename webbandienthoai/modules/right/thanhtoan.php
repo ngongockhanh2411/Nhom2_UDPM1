@@ -15,20 +15,78 @@
 	}
 ?>
 <form action="" method="post" enctype="multipart/form-data">
-<table width="305" border="1">
-  <tr>
-    <td colspan="2"><div align="center">Đăng nhập thành viên</div></td>
-  </tr>
-  <tr>
-    <td>Tên tài khoản</td>
-    <td><input type="text" name="tentaikhoan" size="30"></td>
-  </tr>
-  <tr>
-    <td>Mật khẩu</td>
-    <td><input type="password" name="matkhau" size="30"></td>
-  </tr>
-  <tr>
-    <td colspan="2"><div align="center"><input type="submit" name="dangnhap" value="Đăng nhập"></div></td>
-  </tr>
-</table>
+	<div class="to">
+            <div class="form">
+                <h2>Đăng nhập thành viên</h2>
+                <i class="fab fa-app-store-ios"></i>
+                <label style="margin-left: -60%;">Họ và tên</label>
+                <input type="text" name="tentaikhoan">
+                <label style="margin-left: -60%;">Mật khẩu</label>
+				<input type="password" name="matkhau">
+                <input id="submit" type="submit" name="dangnhap" value="Đăng nhập">
+            </div>                
 </form>
+	
+<style>
+	.to {
+    display: grid;
+    
+
+}
+ 
+.form {
+    border: 1px solid #80808000;
+    grid-column: 6/9;
+    grid-row: 3;
+    height: 542px;
+    width: 562px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background-color: white;
+}
+h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+i.fab.fa-app-store-ios {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+ 
+label {
+    font-weight: lighter;
+ 
+}
+input{
+    display: block;
+    border-bottom: 2px solid #00BCD4;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    outline-style: none;
+}
+input[type="text"] {
+    padding: 5px;
+    width: 70%;
+}
+ input[type="password"] {
+    padding: 5px;
+    width: 70%;
+}
+input#submit {
+    padding: 7px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+input#submit:hover{
+ 
+    background: linear-gradient(to right, #fc466b, #3f5efb); 

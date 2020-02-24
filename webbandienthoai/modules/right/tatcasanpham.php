@@ -11,9 +11,10 @@
                 	<li><a href="index.php?xem=chitietsanpham&id=<?php echo $dong_tatca['id_sp'] ?>">
                    	  <img src="admincp/modules/quanlychitietsp/uploads/<?php echo $dong_tatca['hinhanh'] ?>" width="100" height="100">
                       <p style="color:#03F"><?php echo $dong_tatca['tensp'] ?></p>
-                      <p style="color:#F00">Giá: <?php echo $dong_tatca['gia'] ?></p>
+                      <p style="color:#F00"><span class="monney">Giá:  <?php echo  $dong_tatca['gia']
+						  ?> </span><u>đ</u></p>
                       <p style="color:#F00; text-align:center">Chi tiết</p>
-                    </a></li>
+                    </a></li>				
                  <?php
 				}
 				?>
