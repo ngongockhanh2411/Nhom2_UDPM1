@@ -1,0 +1,3 @@
+<div style="padding-top: 80px; padding-bottom: 50px;line-height:2"><h1 style="color:#F03" align="center">Nếu có vấn đề gì về sản phẩm vui lòng liên hệ: hotline<a href="#"> 0966.051.244</a> hoặc <a href="#">0362586471</a> hoặc <a href="#">0369631854</a></h1>	
+<p align="center"><img src="imags/hotlines.png" width="550px" height="200px"></p>
+<p style="float:right;padding-right: 20px"><a href="index.php">>>>Trở về trang chủ<<<</a></p></div>

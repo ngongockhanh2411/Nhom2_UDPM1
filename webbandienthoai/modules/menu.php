@@ -8,12 +8,12 @@
 	<li><a href="index.php?xem=giohang">Giỏ hàng</a></li>
      
     <li><a href="#">Hỏi đáp</a></li>
-    <li><a href="#">Liên hệ</a></li>	  
+    <li><a href="index.php?xem=lienhe">Liên hệ</a></li>	  
   </ul>
 </div>
 <form action="index.php" method="post" enctype="multipart/form-data">
             <div class="searchform">
-            <input type="text" id="searchf" name="searchtext" size="25"  /><input type="submit" id="searchbtn" name="search" value="Tìm Kiếm" placeholder="Tìm...."  />
+            <input type="text" id="searchf" name="searchtext" size="25"/><input type="submit" id="searchbtn" name="search" value="Tìm Kiếm" placeholder="Tìm...."  />
             </div>
              </form>
 <style >

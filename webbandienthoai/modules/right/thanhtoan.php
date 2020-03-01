@@ -24,7 +24,7 @@
                 <label style="margin-left: -60%;">Mật khẩu</label>
 				<input type="password" name="matkhau">
                 <input id="submit" type="submit" name="dangnhap" value="Đăng nhập">
-            </div>                
+            </div>   
 </form>
 	
 <style>

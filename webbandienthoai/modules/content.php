@@ -16,6 +16,8 @@
 				include('modules/right/chitietsanpham.php');
 			}elseif($tam=='giohang'){
 				include('modules/right/giohang.php');
+			}elseif($tam=='lienhe'){
+				include('modules/right/lienhe.php');
 			}elseif($tam=='dangky'){
 				include('modules/right/dangky.php');
 			}elseif($tam=='thongbao'){

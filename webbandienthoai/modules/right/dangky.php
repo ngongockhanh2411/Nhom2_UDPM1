@@ -30,7 +30,7 @@
 				<label style="margin-left: -60%;">Số điện thoại</label>
                 <input type="text" name="dienthoai"> 
                 <input id="submit" type="submit" name="dangky" value="Đăng ký">
-            </div>                
+            </div>  
         </div>
 </form>
 
@@ -43,9 +43,9 @@
  
 .form {
     border: 1px solid #80808000;
-    grid-column: 6/9;
+    grid-column: 5/9;
     grid-row: 3;
-    height: 542px;
+    height: 642px;
     width: 562px;
     display: flex;
     flex-direction: column;
