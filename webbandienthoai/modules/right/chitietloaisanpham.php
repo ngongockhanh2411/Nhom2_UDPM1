@@ -14,7 +14,7 @@
                 <?php
 				while ($dong_chitiet=mysql_fetch_array($query)){
 				?>
-                	<li><a href="index.php?xem=chitietsanpham&id=<?php echo $dong_chitiet['id_sp'] ?>">
+                	<li><a href="index.php?xem=chitietsanpham&idloaisp=<?php echo $dong_chitiet['id_loaisp'] ?>&id=<?php echo $dong_chitiet['id_sp'] ?>">
                    	  <img src="admincp/modules/quanlychitietsp/uploads/<?php echo $dong_chitiet['hinhanh'] ?>" width="100" height="100">
                       <p style="color:#03F"><?php echo $dong_chitiet['tensp'] ?></p>
                       <p style="color:#F00">Giá: <?php echo $dong_chitiet['gia'] ?></p>

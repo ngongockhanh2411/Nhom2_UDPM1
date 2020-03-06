@@ -5,6 +5,7 @@
 		?>
     </div>
     <div class="right">
+		<div class="all-product">
     	<?php
 			if(isset($_GET['xem'])){
 				$tam=$_GET['xem'];
@@ -23,17 +24,24 @@
 			}elseif($tam=='thongbao'){
 				include('modules/right/thongbao.php');
 			}elseif($tam=='thanhtoan'){
-				include('modules/right/thanhtoan.php');
+				include('modules/right/thanhtoan/thanhtoan.php');
+			}elseif($tam=='camon'){
+				include('modules/right/thanhtoan/camon.php');
 			}elseif(isset($_POST['search'])){
 				include('modules/right/search.php');
 			}elseif($tam=='dangnhap'){
 				include('modules/right/dangnhap.php');
 			}else	
 				include('modules/right/tatcasanpham.php');	
-				
 		?>
-    </div>
- 		
+		</div>
+		<div class="most" style="margin-top: 70%">
+		<?php
+			include('modules/right/sanphamnoibat.php');
+			?>
+	</div>
+    </div>	
+	
 </div>
         </div>
     	<div class="clear"></div>

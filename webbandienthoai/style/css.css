@@ -52,7 +52,7 @@
 }
 .left{
 	width:200px;
-	height:400px;
+	height:auto;
 	border:1px solid #000;
 	float:left;
 }

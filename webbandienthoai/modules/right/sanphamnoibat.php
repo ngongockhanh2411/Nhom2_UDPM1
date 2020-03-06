@@ -1,8 +1,9 @@
 <?php
-	$sql_tatca="select * from chitietsp";
+	$sql_tatca="select * from chitietsp where noibat>0";
 	$query_tatca=mysql_query($sql_tatca);
 ?>
-        <p style="text-align:center;color:#FFF;background:#F06;padding:10px">Tất cả sản phẩm</p>
+	<div>
+        <p style="text-align:center;color:#FFF;background:#F06;padding:10px">Sản phẩm nổi bật</p>
             <div class="sanphamall">
             	<ul style="padding-top: 15px; text-align: center" >
                 <?php
@@ -20,3 +21,4 @@
 				?>
                 </ul>
             </div>
+           </div>

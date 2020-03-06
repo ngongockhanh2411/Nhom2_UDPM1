@@ -18,13 +18,14 @@
 	<div class="to">
             <div class="form">
                 <h2>Đăng nhập thành viên</h2>
-                <i class="fab fa-app-store-ios"></i>
+                <div class="fab fa-app-store-ios"></i>
                 <label style="margin-left: -60%;">Họ và tên</label>
                 <input type="text" name="tentaikhoan">
                 <label style="margin-left: -60%;">Mật khẩu</label>
 				<input type="password" name="matkhau">
                 <input id="submit" type="submit" name="dangnhap" value="Đăng nhập">
             </div>   
+           </div>
 </form>
 	
 <style>

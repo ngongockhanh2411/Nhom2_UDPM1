@@ -1,8 +1,7 @@
 
 <div id="menu">
   <ul>
-    <li><a href="index.php">Trang chủ</a></li>
-    <li><a href="index.php?xem=chitietloaisanpham&id=1">Sản phẩm</a></li>
+	  <li><a href="index.php">Trang chủ</a></li>
 	<li><a href="index.php?xem=dangky">Đăng ký</a></li>
 	<li><a href="index.php?xem=thanhtoan">Đăng nhập</a></li>
 	<li><a href="index.php?xem=giohang">Giỏ hàng</a></li>

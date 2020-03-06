@@ -19,7 +19,9 @@
   <tr>
     <td><?php echo $i; ?></td>
     <td><?php echo $dong['tensp']; ?></td>
-    <td><img src="modules/quanlychitietsp/uploads/<?php echo $dong['hinhanh'] ?>" width="60" height="60"></td>
+    <td><img src="modules/quanlychitietsp/uploads/<?php echo $dong['hinhanh'] ?>" width="60" height="60">
+    <p><a href="index.php?quanly=gallery&ac=them&id=<?php echo $dong['id_sp'] ?>">Bộ sưu tập</a></p>
+    </td>
     <td><?php echo $dong['gia']; ?>;</td>
     <td><?php echo $dong['tenloaisp'];?></td>
     <td><?php echo $dong['thutu'] ;?></td>
